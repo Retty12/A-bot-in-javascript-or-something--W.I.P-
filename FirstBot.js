@@ -1,4 +1,4 @@
-<!doctype html><html><head></head><body><script type="text/javascript">function startUp() {
+function startUp() {
   var start = window.prompt("wanna start me up?");
 
   if (start === "no") {
@@ -22,4 +22,4 @@
 
   // I don't know how to make a if for an incorrect answer if you now please help :(
 }
-startUp();</script></body><html>
+startUp();
