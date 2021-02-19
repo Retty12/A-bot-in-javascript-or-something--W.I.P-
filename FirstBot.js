@@ -16,7 +16,7 @@ function startUp() {
     var mathAnswer = window.prompt("Okay then! what is " + number1 + " + " + number2);
   } 
 
-  if (mathAnswer === number1 || number2) {
+  if (mathAnswer === number1 + number2) {
     window.alert("Correct :D");
   }
 
