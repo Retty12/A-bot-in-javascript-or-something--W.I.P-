@@ -1,10 +1,13 @@
 function startUp() {
+  // the starting up of the function
   var start = window.prompt("wanna start me up?");
-
+   
+  // if the answer is no, then it doesn't launch
   if (start === "no") {
     window.alert("I'm not starting then have a great day.");
   } 
   
+  // if the answer is yes, then it does launch
   if (start === "yes") {
     window.alert("Okay starting up!");
     var answer = window.prompt("Okay then! Wanna do math, science, and history?");
