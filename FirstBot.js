@@ -21,8 +21,8 @@ function startUp() {
 
   if (mathAnswer === number1 + number2) {
     window.alert("Correct :D");
+  } else if (mathAnswer !=== number1 + number2) {
+    window.alert("Incorrect >:(");
   }
-
-  // I don't know how to make a if for an incorrect answer if you now please help :(
 }
 startUp();
