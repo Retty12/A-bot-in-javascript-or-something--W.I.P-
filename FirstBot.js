@@ -19,9 +19,9 @@ function startUp() {
     var mathAnswer = window.prompt("Okay then! what is " + number1 + " + " + number2);
   } 
 
-  if (mathAnswer === number1 + number2) {
+  if (mathAnswer == number1 + number2) {
     window.alert("Correct :D");
-  } else if (mathAnswer !=== number1 + number2) {
+  } else if (mathAnswer !== number1 + number2) {
     window.alert("Incorrect >:(");
   }
 }
